@@ -1,1 +1,3 @@
-# javascript-action-template
+# JavaScript Action
+
+Template for JavaScript Actions
