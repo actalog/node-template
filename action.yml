@@ -1,0 +1,16 @@
+name: '@actalog/javascript-action'
+description: Template for JavaScript Actions
+author: Gabriel Rufino <contato@gabrielrufino.com>
+branding:
+  icon: check-square
+  color: green
+
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
