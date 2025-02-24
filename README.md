@@ -1,3 +1,3 @@
-# JavaScript Action
+# Node Template
 
-Template for JavaScript Actions
+Template for Node Actions

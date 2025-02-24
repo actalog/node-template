@@ -1,26 +1,27 @@
 {
-  "name": "@actalog/javascript-action",
+  "name": "@actalog/node-template",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "ncc build src/index.js -o dist"
+    "build": "ncc build src/index.ts -o dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actalog/javascript-action-template.git"
+    "url": "git+https://github.com/actalog/node-template.git"
   },
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/actalog/javascript-action-template/issues"
+    "url": "https://github.com/actalog/node-template/issues"
   },
-  "homepage": "https://github.com/actalog/javascript-action-template#readme",
+  "homepage": "https://github.com/actalog/node-template#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.3"
+    "@vercel/ncc": "^0.38.3",
+    "typescript": "^5.7.3"
   }
 }
