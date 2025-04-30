@@ -1,5 +1,5 @@
-name: '@actalog/javascript-action'
-description: Template for JavaScript Actions
+name: '@actalog/node-template'
+description: Template for Node Actions
 author: Gabriel Rufino <contato@gabrielrufino.com>
 branding:
   icon: check-square
