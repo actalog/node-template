@@ -1,3 +1,3 @@
-# Node Template
+# @actalog/node-template
 
 Template for Node Actions
