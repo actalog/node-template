@@ -18,10 +18,10 @@
   "homepage": "https://github.com/actalog/node-template#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0"
+    "@actions/github": "^6.0.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.3",
-    "typescript": "^5.8.3"
+    "@vercel/ncc": "^0.38.4",
+    "typescript": "^5.9.3"
   }
 }
