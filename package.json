@@ -2,9 +2,9 @@
   "name": "@actalog/node-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "scripts": {
-    "build": "ncc build src/index.ts -o dist"
+    "build": "tsdown src/index.ts -f cjs"
   },
   "repository": {
     "type": "git",
@@ -16,12 +16,10 @@
     "url": "https://github.com/actalog/node-template/issues"
   },
   "homepage": "https://github.com/actalog/node-template#readme",
-  "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1"
-  },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.4",
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
+    "tsdown": "^0.21.4",
     "typescript": "^5.9.3"
   }
 }
