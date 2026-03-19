@@ -8,11 +8,17 @@ jobs:
   node-ci:
     name: Node CI
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actalog/node-ci@v3
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: build"
   tests:
     name: Tests
+    needs: node-ci
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
