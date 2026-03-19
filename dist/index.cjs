@@ -19684,7 +19684,7 @@ var import_core = /* @__PURE__ */ __toESM(require_core());
 var import_github = /* @__PURE__ */ __toESM(require_github());
 try {
 	const nameToGreet = import_core.getInput("who-to-greet");
-	console.log(`Hello, ${nameToGreet}!`);
+	console.log(`Hi, ${nameToGreet}!`);
 	const time = (/* @__PURE__ */ new Date()).toTimeString();
 	import_core.setOutput("time", time);
 	const payload = JSON.stringify(import_github.context.payload, void 0, 2);
