@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/actalog/node-template#readme",
   "devDependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1",
-    "tsdown": "^0.21.4",
-    "typescript": "^5.9.3"
+    "@actions/core": "^3.0.0",
+    "@actions/github": "^9.1.0",
+    "tsdown": "^0.21.9",
+    "typescript": "^6.0.3"
   }
 }
